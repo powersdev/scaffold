@@ -1,0 +1,9 @@
+# Built and vendor files
+.budfiles
+public
+vendor
+./node_modules
+
+# Package manager lockfiles
+composer.lock
+package-lock.json
