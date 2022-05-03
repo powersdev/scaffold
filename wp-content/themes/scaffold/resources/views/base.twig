@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html {{ fn('language_attributes') }}>
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    {{ fn('wp_head') }}
+</head>
+
+<body {{ fn('body_class') }}>
+
+{{ fn('wp_body_open' ) }}
+
+{% block body %}
+{% endblock %}
+
+{{ fn('wp_footer') }}
+
+</body>
+</html>

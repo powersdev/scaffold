@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '241bf4ba969eea9bdbc91090b4ad0bd589361f7d',
+        'name' => 'powersdev/debug',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'hlavacm/wp-tracy' => array(
+            'pretty_version' => 'v2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hlavacm/wp-tracy',
+            'aliases' => array(),
+            'reference' => 'd50bd209060fcbc05895cfd0d492b7bde0acc698',
+            'dev_requirement' => false,
+        ),
+        'powersdev/debug' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '241bf4ba969eea9bdbc91090b4ad0bd589361f7d',
+            'dev_requirement' => false,
+        ),
+        'tracy/tracy' => array(
+            'pretty_version' => 'v2.9.2',
+            'version' => '2.9.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tracy/tracy',
+            'aliases' => array(),
+            'reference' => '03965a7cb94d284dbf7e3b788b3691715c13d401',
+            'dev_requirement' => false,
+        ),
+    ),
+);

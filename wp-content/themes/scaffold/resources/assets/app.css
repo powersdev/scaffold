@@ -1,0 +1,9 @@
+/**
+ * Common Styles
+ *
+ * @package scaffold
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,18 @@
+{
+	"name": "powersdev/debug",
+	"description": "Debugger Plugin",
+	"autoload": {
+		"classmap": [
+			"inc"
+		]
+	},
+	"authors": [
+		{
+			"name": "Jon Powers",
+			"email": "jon@powers.dev"
+		}
+	],
+	"require": {
+		"hlavacm/wp-tracy": "^2.0"
+	}
+}
