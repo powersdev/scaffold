@@ -2,7 +2,8 @@
 .budfiles
 public
 vendor
-./node_modules
+dist
+node_modules
 
 # Package manager lockfiles
 composer.lock
