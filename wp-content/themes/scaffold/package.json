@@ -1,32 +1,36 @@
 {
-  "name": "scaffold",
-  "version": "1.0.0",
-  "description": "Starter theme based on underscores.",
-  "author": "Jon Powers <jon@powers.dev>",
-  "license": "GPL-2.0-or-later",
-  "keywords": [
-    "WordPress",
-    "Theme"
-  ],
-  "homepage": "https://github.com/powersdev/scaffold",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/powersdev/scaffold.git"
-  },
-  "bugs": {
-    "url": "https://github.com/powersdev/scaffold/issues"
-  },
-  "scripts": {
-    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
-  },
-  "devDependencies": {
-    "@roots/bud": "^5.7.7",
-    "@tailwindcss/forms": "^0.5.0",
-    "@tailwindcss/typography": "^0.5.2"
-  },
-  "dependencies": {
-    "alpinejs": "^3.10.2",
-    "tailwindcss": "^3.0.24"
-  }
+	"name": "scaffold",
+	"version": "1.0.0",
+	"description": "Theme based on laravel, timber, and sage.",
+	"author": "Jon Powers <jon@powers.dev>",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"homepage": "https://github.com/powersdev/scaffold",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/powersdev/scaffold.git"
+	},
+	"bugs": {
+		"url": "https://github.com/powersdev/scaffold/issues"
+	},
+	"devDependencies": {
+		"@roots/bud": "^5.7.7",
+		"@roots/bud-babel": "^5.7.7",
+		"@roots/bud-postcss": "^5.7.7",
+		"@roots/bud-tailwindcss": "^5.7.7",
+		"@roots/bud-typescript": "^5.7.7",
+		"@tailwindcss/forms": "^0.5.0",
+		"@tailwindcss/typography": "^0.5.2",
+		"@types/alpinejs": "^3.7.0",
+		"@wordpress/eslint-plugin": "^12.1.0",
+		"tailwindcss": "^3.0.24",
+		"ts-node": "^10.7.0",
+		"typescript": "^4.6.4"
+	},
+	"dependencies": {
+		"alpinejs": "^3.10.2"
+	}
 }
