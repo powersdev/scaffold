@@ -1,8 +1,8 @@
 # Overview
 
-Theme based on Laravel, Timber, and Sage. 
+Theme based on Laravel, Timber, and Sage
 
-Initially created to be the default site repo for the [Local](//powersdev.github.io/local) project.
+Initially created to be the default site repo for the [Local](//local.powers.dev) project.
 
 ## Structure
 
@@ -26,4 +26,4 @@ At a high level, there is one `plugin` and one `theme`.
 
 	It is not intended as a production-ready theme, but rather as a sandbox in which I can explore new ideas.
 
-	It also serves as the default site repo for the somewhat-related [Local](//github.com/powersdev/local) project.
+	It also serves as the default site repo for the somewhat-related [Local](//local.powers.dev) project.
