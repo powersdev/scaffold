@@ -4,21 +4,21 @@ Theme based on Laravel, Timber, and Sage
 
 Initially created to be the default site repo for the [Local](//local.powers.dev) project.
 
-## Structure
+# Structure
 
 At a high level, there is one `plugin` and one `theme`.
 
-### Plugins
+## Plugins
 
-- #### [Debug](/plugins/debug.md)
+- ### [Debug](/plugins/debug.md)
 
 	I'm a fan of the [Tracy](//tracy.nette.org) debugger from the [Nette Foundation](//nette.org), and fortunately there happens to be [a composer package](//github.com/hlavacm/wp-tracy) to integrate it with WordPress.
 
 	This is set up as a `mu-plugin` to include and configure the above.
 
-### Themes
+## Themes
 
-- #### [Scaffold](/themes/scaffold.md)
+- ### [Scaffold](/themes/scaffold.md)
 
 	This is the primary "project" in this repo.
 
